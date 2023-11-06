@@ -39,7 +39,7 @@
                         <h3 class="box-title" style="font-size:14px; text-align:center; margin-bottom:0px;">SELAMAT DATANG DI LOGIN GURU</h3>
                         <h4 style="font-size:12px; text-align:center; margin:0px; margin-bottom:20px;">APLIKASI REKAM POIN PELANGGARAN SISWA </h4>
                         <div>
-                            <!-- <form action="<?php echo base_url(); ?>login_guru/verification" method="post" enctype="multipart/form-data"> -->
+                            	<form action="<?php echo base_url(); ?>login_guru/verification" method="post" enctype="multipart/form-data">
                                 <?php
                                 if($this->session->userdata('pesan_aktifitas')=='t'){
                                 ?>
